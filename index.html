@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<style>
+  .jumbtron {
+    display: flex;
+    padding: 2rem 5rem;
+  }
+  .jumbtron {
+    background-color:yellow;
+    
+  }
+  .nav-link
+    color:lightpink;
+  }
+  #rgmodal {
+    padding: 5rem 5rem;
+    background-color: lightblue;
+  }
+  
+  .rgimage {
+    width:100vh;
+    height:90vh;
+  }
+  .rgimage {
+    padding:2rem 3rem;
+    background-color: light blue;
+  }
+  #about #brandname{
+    color: #000068;
+  }
+  .footer {
+    margin:50px;
+    padding:0px,0px;
+    height:550px;
+    background-color:lightblue;
+  }
+  #card .card-footer {
+      background-color: lightblue;
+    }
+  #card .card-header {
+      background-color: lightblue;
+  }
+  #card .card {
+      border:3px solid black;
+  }
+  .navbar {
+    background color:lightblue;
+  }
+
+
+</style>
+</head>
+	
+
+	
+
+<body>
+<div class="navbar"style="background-color:deeppink;">
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#"><i class="bi bi-airplane-engines-fill"></i>Tour And Travel Web</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">About us</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Gallery</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          categories
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Domastic</a>
+          <a class="dropdown-item" href="#">nature</a>
+          <a class="nav-link disabled"href="#">Historic</a>
+        </div>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          International
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Dubai</a>
+          <a class="dropdown-item" href="#">Swizerland</a>
+          <a class="dropdown-item" href="#">luxenberg</a>
+          <a class="dropdown-item" href="#">Texas</a>
+
+        </div>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-mute my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+      </li>
+</div>     
+<div class="jumbtron" class="jumbotron-fluid">
+    <div id="textdata">
+      
+         <h2 class="display-4"><b>Explore the World With Us</b></h2>
+         <hr class="my-4">
+         <h4 class="display-7"><u>Discover Your Next Adventure.</u></h4>
+         <hr class="my-2">
+         <p class="display-10"><i>Jobs fill your pocket, but adventures fill your soul.</i></p>
+         <hr class="my-4">  
+         <p class="lead">
+           <a class="btn btn-danger btn-outline-info btn-sm" href="#" role="button">Book Now</a>
+         </p>
+          
+    </div>       
+    <div id="imagedata">
+      
+         <img src="C:\Users\VICTUS\Desktop\project\image\img7.jpeg".>
+      
+         
+    </div>
+</div>
+<!--end of jumbotron-->
+
+
+
+<div id="rgmodal">
+
+<div class="container"id="about">  
+  <h1 class="text-center my-4"> About <span id="brandname"> Tours And Travels </span> </h1>
+  <hr width="200x" class="bg-secondary">
+    <div class="row">
+
+     <div class="col-md-6">
+      <img src="C:\Users\VICTUS\Desktop\project\image\tour.jpeg" class="img-fluid">
+     </div>
+     <div class="col-md-6">
+      <p>Don't waste a moment of hard-earned vacation time hemming and hawing over a sentence or two to highlight those gorgeous snaps. We put together this list of cute, silly, funny and inspirational travel Instagram captions for those times when you don’t have the patience or energy to come up with something on your own. Some of them are even quotes from our favorite celebrities, since sometimes, someone else just says it better. Pick one for now, save some for later and focus on enjoying your trip..</p>
+             
+        <p>  While some travel Instagram captions can work for vacations of all kinds, others are specifically geared toward an activity or the type of vacation you're going on, whether it's camping, going to the beach, or traveling</p>
+      </div>
+    </div>
+</div>
+</div>
+<!--end of container-->
+
+
+
+
+  
+    
+  
+
+
+
+<div id="rgimage">
+  <div class="jumbotron"> 
+    <h1> <i class="bi bi-camera-fill"></i>The image Gallary </h1>
+  </div>
+
+  
+  
+   <h1 class="text-center my-4"><i class="bi bi-suitcase-fill"></i><b> Historic</b><i class="bi bi-suitcase-fill"></i></h1> 
+<div class="row">
+  <hr class="my-2">
+    
+    <div class="col-md-3 mx-auto">
+      <div class="thumbnail">
+         <img src="C:\Users\VICTUS\Desktop\project\image\historical-colloseum.jpeg" class="img-fluid">
+              <h4 class="text-center"> </h4>
+      </div>
+    </div>  
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+         <img src="C:\Users\VICTUS\Desktop\project\image\red.jpeg"class="img-fluid">
+           <h4 class="text-center"> </h4>
+      </div>
+    </div>
+    
+    <div class="col-md-3">
+      <div class="thumbnail">
+
+        <img src="C:\Users\VICTUS\Desktop\project\image\img5.jpeg" class="img-fluid">
+       </div>
+    </div>
+
+    <div class="col-md-3">
+      <div class="thumbnail">
+         <img src="C:\Users\VICTUS\Desktop\project\image\img4.jpeg" class="img-fluid">
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 class="text-center my-4"><i class="bi bi-backpack2-fill"></i> International destination <i class="bi bi-backpack2-fill"></i></h1>
+<div class="row">
+   <div class="col-md-3">
+      <img src="C:\Users\VICTUS\Desktop\project\image\images.jpeg" class="img-fluid">
+    </div>      
+        
+
+    <div class="col-md-3">
+      <img src="C:\Users\VICTUS\Desktop\project\image\img3.jpeg"class="img-fluid">
+    </div>
+    
+    <div class="col-md-3">
+      <div class="thumbnail">
+         <img src="C:\Users\VICTUS\Desktop\project\image\img6.jpeg" class="img-fluid">
+      </div>
+    </div>
+
+            
+    <div class="col-md-3">
+      <img src="C:\Users\VICTUS\Desktop\project\image\tower.jpeg" class="img-fluid">
+    </div>
+</div>
+
+
+
+
+
+<div class="jumbotron">
+  <h1> Facilities Provided By us </h1>
+</div>
+
+<div class="container" id="card">
+    <div class="row">
+      <div class="col-md-3 mx-auto">
+
+        <div class="card">
+          <div class="card-header">
+           <h3 text-center> Hotel </h3>
+          </div>
+          <div class="card-body px-0 py-0">
+                 <img src="C:\Users\VICTUS\Desktop\project\image\hotel.jpeg" class="img-fluid">
+          
+        </div>
+          <div class="card-footer">
+            <p> Explore the happy staying place. </p>
+                </div>
+    </div>
+        
+</div>
+        <div class="col-md-3 mx-auto">
+
+        <div class="card">
+          <div class="card-header">
+            <h3 text-center> Food </h3>
+          </div>
+          <div class="card-body px-0 py-0">
+                 <img src="C:\Users\VICTUS\Desktop\project\image\food.jpeg "class="img-fluid">
+          
+        </div>
+          <div class="card-footer">
+            <p>Indulging in flavors that make life delicious.</p>
+
+                </div>
+    </div>
+        
+</div>
+      <div class="col-md-3 mx-auto">
+
+        <div class="card">
+          <div class="card-header">
+           <h3 text-center> Adventure </h3>
+          </div>
+          <div class="card-body px-0 py-0">
+                 <img src="C:\Users\VICTUS\Desktop\project\image\adventure.jpeg" class="img-fluid">
+          
+        </div>
+          <div class="card-footer">
+            <p>Life is either a daring adventure or nothing.</p>
+
+                </div>
+    </div>
+        
+</div>    
+      <div class="col-md-3 mx-auto">
+
+        <div class="card">
+          <div class="card-header">
+           <h3 text-center> medical Facillities </h3> 
+          </div>
+          <div class="card-body px-0 py-0">
+                 <img src="C:\Users\VICTUS\Desktop\project\image\medical.jpeg"class="img-fluid">
+          
+        </div>
+          <div class="card-footer">
+            <p> Medical facillities for traveller & caring of health</p>
+                </div>
+    </div>
+        
+</div>      
+    
+</div>
+</body>
+</html>
+
+
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <h3>Address</h3>
+        <p>Near Adarsh Hotel ,Rajkamal chowk ,Amravati 444603</p>
+        <p>Email: travelwithus@gmail.com<p>
+
+         <p> <i class="bi bi-telephone-fill"></i> Call: +91 3445678765 </p>
+            <i class="bi bi-whatsapp"></i> 
+              <i class="bi bi-instagram"></i> 
+                <i class="bi bi-twitter"></i>
+                <i class="bi bi-facebook"></i></p>
+
+        
+      </div>
+      
+    
+      <div class="col-md-9">
+        <div class="row">
+          <div class="col-md-3">
+             <h3> Discover us </h3>
+            <ul>
+              <li> Guest Reviews </li>
+              <li> About us </li>
+              <li> Our Team </li>
+              <li> sales partener</li>
+              <li> Become A Sales Partner </li>
+              <li> Careers We’re Hiring! </li>
+              <li> CSR Policy </li>
+            </ul> 
+          </div>
+        
+    
+      
+          <div class="col-md-3">
+             <h3> Support </h3>
+            <ul>
+               <li> Support </li> 
+               <li> contact us </li>
+               <li> leave your Feedback </li> 
+               <li> How To Book </li>
+               <li> FAQ </li>
+               <li> Travel Deals </li>
+               <li> Annual Return </li>
+            </ul>
+          </div>
+      
+      
+          <div class="col-md-3">
+              <h3> Resources </h3>
+            <ul>
+              <li> Tour Status </li> 
+              <li> Blog </li>
+              <li> podcasts </li> 
+              <li> video Blogs </li>
+            
+              <li> travel planner </li> 
+              <li> customized travel planner </li>
+            </ul>
+          </div>
+      
+     
+          <div class="col-md-3">
+             <h3> Best International Tour packages </h3>
+            <ul>
+               <li> texas Tour Packages </li> 
+               <li> luxenberg Tour Packages </li>
+               <li> Italy Tour packages </li> 
+               <li> Dubai tour packages </li>
+               <li>hong-kong tour packages</li>
+               <li> Swizerland tour packages </li>
+
+               <li> india tour </li> 
+               <li> Maharashtra tour </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>
